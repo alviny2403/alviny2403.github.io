@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: #5aa17f;
+}
+
+body{
+    background-color: #A2E4B8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top: 80px;
+}
+
+#topBar{
+    position: fixed;
+    left:0;
+    right:0;
+    top: 0;
+    display: flex;
+    background-color: white;
+    border-bottom: 3px black solid;
+    color: #A2E4B8;
+    text-align: center;
+}
+
+#topBar h1{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#topSplit{
+    display: flex;
+    gap: 25px 0px;
+    justify-content: center;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+.selectItem{
+    font-family: 'Lucida Sans';
+    padding: 10px;
+}
+
+.selectItem:hover{
+    background-color: aliceblue;
+}
+
+#content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+    margin:4px, 4px;
+    padding:20px;
+    width: 800px;
+    text-align: left;
+}
+
+#content h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: #4fa8d8;
+    padding: 10px;
+    margin-bottom: -125px;
+}
+
+#content h2{
+    font-size: 35px;
+}
+
+#content p{
+    font-size: 25px;
+}
+
+ul li{
+    font-size: 24px;
+}
+
+.myInfo{
+    margin-bottom: -150px;
+}
+
+.myInfo h2{
+    padding-top: 75px;
+}
+
+.myInfo img{
+    padding: 0px;
+}
+
+#aboutMe{
+    display: flex;
+    gap: 0px 25px;
+}
+
+#aboutMe img{
+    padding-top: 100px;
+    width: 200px;
+}
+
+#techSkill img{
+    height: 165px;
+}
+
+#academics img{
+    width: 400px;
+    padding-left: 200px;
+}
+
+#hobbies{
+    margin-bottom: 200px;
+}
+
+#hobbies ul li{
+    padding: 0px;
+}
+
+#hobbies ul p{
+    font-size: 15px;
+}
+
+#hobbies img{
+    padding: 10px;
+    height: 250px;
+}
+
+footer{
+    display: flex;
+    background-color: #5aa17f;
+    bottom: 0px;
+    float: bottom;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    gap: 0px 50px;
+}
+
+.lowerBar{
+    padding: 50px;
+}
+
+.lowerBar a{
+    color: #0072b1;
+}
