@@ -140,8 +140,8 @@ footer{
     bottom: 0px;
     float: bottom;
     width: 100%;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
+    text-align: left;
     vertical-align: middle;
     gap: 0px 50px;
 }
