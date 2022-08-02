@@ -33,9 +33,8 @@ body{
     padding-right: 45px;
 }
 
-#topSplit{
+#white{
     display: flex;
-    gap: 25px 0px;
     justify-content: center;
 }
 
@@ -152,4 +151,62 @@ footer{
 
 .lowerBar a{
     color: #0072b1;
+}
+
+@media(max-width: 500px){
+    #topBar{
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 10px;
+    }
+    
+    #topBar h1{
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    #content{
+        width: 300px;
+    }
+
+    #content h2{
+        font-size: 25px;
+    }
+    
+    #content p{
+        font-size: 20px;
+    }
+
+    .myInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #aboutMe img{
+        margin-top: 50px;
+    }
+    
+    #techSkill img{
+        padding: 10px;
+        height: 90px;
+    }
+
+    #academics img{
+        padding-left: 0px;
+        width: 200px;
+    }
+    
+    #hobbies{
+        margin-bottom: 100px;
+    }
+    
+    #hobbies img{
+        height: 200px;
+    }
+    
+    footer{
+        flex-direction: column;
+    }
 }
