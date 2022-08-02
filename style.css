@@ -149,7 +149,7 @@ footer{
 }
 
 .lowerBar a{
-    color: #0072b1;
+    color: black;
 }
 
 @media(max-width: 850px){
@@ -170,15 +170,15 @@ footer{
     }
 
     #content h1{
-        font-size: 45px;
+        font-size: 50px;
     }
 
     #content h2{
-        font-size: 35px;
+        font-size: 40px;
     }
     
     #content p{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .myInfo{
@@ -194,12 +194,12 @@ footer{
     
     #techSkill img{
         padding: 10px;
-        height: 90px;
+        height: 120px;
     }
 
     #academics img{
         padding-left: 0px;
-        width: 200px;
+        width: 400px;
     }
     
     #hobbies{
@@ -207,7 +207,7 @@ footer{
     }
     
     #hobbies img{
-        height: 200px;
+        height: 350px;
     }
     
     footer{
@@ -217,19 +217,15 @@ footer{
 
 @media(max-width: 600px){
     #topBar{
-        align-items: center;
-        justify-content: space-evenly;
         font-size: 10px;
     }
     
     #topBar h1{
         font-size: 12px;
-        padding: 0px;
     }
 
     #content{
         width: 300px;
-        margin-top: -25px;
     }
 
     #content h1{
@@ -243,37 +239,16 @@ footer{
     #content p{
         font-size: 20px;
     }
-
-    .myInfo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    #aboutMe img{
-        margin-top: 50px;
-    }
     
     #techSkill img{
-        padding: 10px;
         height: 90px;
     }
 
     #academics img{
-        padding-left: 0px;
         width: 200px;
     }
-    
-    #hobbies{
-        margin-bottom: 100px;
-    }
-    
+
     #hobbies img{
         height: 200px;
-    }
-    
-    footer{
-        flex-direction: column;
     }
 }
