@@ -59,7 +59,6 @@ body{
     gap: 100px 0px;
     font-family: 'Times New Roman', Times, serif;
 
-    margin:4px, 4px;
     padding:20px;
     width: 800px;
     text-align: left;
@@ -153,7 +152,70 @@ footer{
     color: #0072b1;
 }
 
-@media(max-width: 500px){
+@media(max-width: 850px){
+    #topBar{
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 16px;
+    }
+    
+    #topBar h1{
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    #content{
+        width: 650px;
+        margin-top: -25px;
+    }
+
+    #content h1{
+        font-size: 45px;
+    }
+
+    #content h2{
+        font-size: 35px;
+    }
+    
+    #content p{
+        font-size: 25px;
+    }
+
+    .myInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #aboutMe img{
+        margin-top: 50px;
+    }
+    
+    #techSkill img{
+        padding: 10px;
+        height: 90px;
+    }
+
+    #academics img{
+        padding-left: 0px;
+        width: 200px;
+    }
+    
+    #hobbies{
+        margin-bottom: 100px;
+    }
+    
+    #hobbies img{
+        height: 200px;
+    }
+    
+    footer{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 600px){
     #topBar{
         align-items: center;
         justify-content: space-evenly;
@@ -167,6 +229,11 @@ footer{
 
     #content{
         width: 300px;
+        margin-top: -25px;
+    }
+
+    #content h1{
+        font-size: 35px;
     }
 
     #content h2{
