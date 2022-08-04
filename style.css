@@ -141,7 +141,6 @@ footer{
     justify-content: space-around;
     text-align: center;
     vertical-align: middle;
-    gap: 0px 50px;
 }
 
 .lowerBar{
@@ -149,7 +148,7 @@ footer{
 }
 
 .lowerBar a{
-    color: black;
+    color: darkblue;
 }
 
 @media(max-width: 850px){
