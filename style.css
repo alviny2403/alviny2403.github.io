@@ -22,6 +22,7 @@ body{
     right:0;
     top: 0;
     display: flex;
+    flex-wrap: wrap;
     background-color: white;
     border-bottom: 3px black solid;
     color: #A2E4B8;
@@ -180,6 +181,10 @@ footer{
         font-size: 30px;
     }
 
+    ul li{
+        font-size: 30px;
+    }
+
     .myInfo{
         display: flex;
         flex-direction: column;
@@ -221,6 +226,7 @@ footer{
     
     #topBar h1{
         font-size: 12px;
+        margin-top: 20px;
     }
 
     #content{
@@ -239,6 +245,10 @@ footer{
         font-size: 20px;
     }
     
+    ul li{
+        font-size: 20px;
+    }
+
     #techSkill img{
         height: 90px;
     }
