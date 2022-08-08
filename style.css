@@ -107,6 +107,21 @@ ul li{
     width: 200px;
 }
 
+#git_function{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 50px;
+    justify-content: center;
+}
+
+#textEdit{
+    color: grey;
+}
+
+#textEdit{
+    max-width: 305px;
+}
+
 #techSkill img{
     height: 165px;
 }
