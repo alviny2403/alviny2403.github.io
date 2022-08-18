@@ -9,5 +9,5 @@ let aboutMe= {
         "year": "2022",
         "month": "August",
     },
-    "major": "mechanical engineering / computer science"
+    "major": "computer engineering"
 }

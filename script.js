@@ -21,7 +21,7 @@ enterBtn.onclick= (event)=>{
 let myData= document.getElementById("myData")
 myData.innerHTML= "High school "+ 
     aboutMe.year+ " and aspiring "+ 
-    aboutMe.major+ " major. I am curretly "+ 
+    aboutMe.major+ " major. I am currently "+ 
     aboutMe.age+ " years old (as of "+
     aboutMe.date.month+ " "+ 
     aboutMe.date.year+ ")."
