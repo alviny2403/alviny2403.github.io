@@ -58,7 +58,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 100px 0px;
-    font-family: Bradley Hand, cursive;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     padding:20px;
     width: 800px;
