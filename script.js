@@ -8,7 +8,7 @@ enterBtn.onclick= (event)=>{
     let newTextValue= newText.value
     
     if (newTextValue == ""){
-        editText.innerHTML= "(hello world)"
+        editText.innerHTML= "(Try &lt;button&gt;click&lt;/button&gt;)"
         editText.style.color= "grey"
     }
     else {

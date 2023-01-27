@@ -6,8 +6,8 @@ let aboutMe= {
     "age": 17,
     "year": "senior",
     "date": {
-        "year": "2022",
-        "month": "August",
+        "year": "2023",
+        "month": "January",
     },
     "major": "computer engineering"
 }

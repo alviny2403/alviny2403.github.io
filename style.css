@@ -45,7 +45,7 @@ body{
 }
 
 .selectItem{
-    font-family: 'Lucida Sans';
+    font-family: 'Courier New', Courier, monospace;
     padding: 10px;
 }
 
@@ -58,7 +58,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 100px 0px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Bradley Hand, cursive;
 
     padding:20px;
     width: 800px;
@@ -74,15 +74,15 @@ body{
 }
 
 #content h2{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 #content p{
-    font-size: 25px;
+    font-size: 21px;
 }
 
 ul li{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .myInfo{
@@ -94,7 +94,7 @@ ul li{
 }
 
 .myInfo img{
-    padding: 0px;
+    padding: 10px;
 }
 
 #aboutMe{
@@ -190,7 +190,6 @@ footer{
     }
     
     #topBar h1{
-        font-size: 20px;
         padding: 0px;
     }
 
@@ -200,19 +199,20 @@ footer{
     }
 
     #content h1{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #content h2{
-        font-size: 40px;
+        font-size: 30px;
     }
     
     #content p{
-        font-size: 30px;
+        font-size: 23px;
     }
 
     ul li{
-        font-size: 30px;
+        text-align: left;
+        font-size: 20px;
     }
 
     .myInfo{
@@ -289,7 +289,7 @@ footer{
     }
 
     ul li{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #techSkill img{
